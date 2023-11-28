@@ -31,13 +31,18 @@ function createElement (tagElement, classList){
 
       function(){
 
-        
 
-        for (i = 1; i <= 100; i++){
+        for (let i = 1; i <= 100; i++){
+
+        // creo il mio elemento
 
           let col = createElement ('div', 'col');
-
+           
+        //   appendo al mio elemento le i
           col.append(i);
+          
+
+        //   stabilisco che al click di ogni cella il colore cambierà
 
           col.addEventListener ('click',
             function(){
@@ -48,10 +53,8 @@ function createElement (tagElement, classList){
 
             });
 
+        // appendo le col alla row
            row.append (col);
-
-           console.log(col);
-
 
         }
 
