@@ -44,6 +44,10 @@ main{
     align-items: center;
 }
 
+.lightblue{
+    background-color: lightseagreen;
+}
+
 /* stili footer */
 
 footer{
