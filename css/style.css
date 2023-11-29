@@ -6,6 +6,10 @@
 
 /* stili header */
 
+.section{
+    height: calc(100vh - 100px);
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,7 @@ header{
 
 main{
     background-color: #7fffd4;
+    height: 90%;
 }
 
 .container{
@@ -37,7 +42,7 @@ main{
 
 .col{
     width: calc(100% / 10);
-    padding: 25px;
+    padding: 20px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -52,4 +57,5 @@ main{
 
 footer{
     padding: 25px 15px ;
+    height: 100px;
 }

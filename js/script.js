@@ -31,15 +31,20 @@ function createElement (tagElement, classList){
 
       function(){
 
+        row.innerHTML = "";
+
 
         for (let i = 1; i <= 100; i++){
 
         // creo il mio elemento
 
           let col = createElement ('div', 'col');
+
            
         //   appendo al mio elemento le i
           col.append(i);
+
+          console.log(col);
           
 
         //   stabilisco che al click di ogni cella il colore cambierà
@@ -57,11 +62,6 @@ function createElement (tagElement, classList){
            row.append (col);
 
         }
-
-        
-
-        
-
        
 });
 
